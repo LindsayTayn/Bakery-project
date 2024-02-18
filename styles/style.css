@@ -9,19 +9,70 @@ roboto-medium
 roboto-bold
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-style: normal;*/
+  font-style: normal;
 
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}*/
+:root {
+  --primary-color: #ffffff;
+  --heading-font-family: "Roboto", sans-serif;
+  --button-font-family: "Montserrat", sans-serif;
+}
 body {
   background-color: black;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: var(--heading-font-family);
+}
 h1 {
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+  font-size: 72px;
   font-weight: bold;
 }
 p {
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+  font-size: 18px;
   font-weight: normal;
+}
+.hero {
+  background-image: url("../Images/pain.jpg");
+  background-size: cover;
+  text-align: center;
+
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2;
+}
+.hero p {
+  text-align: center;
+  line-height: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.btn-light {
+  background-color: var(--primary-color);
+  color: #272142;
+  font-family: var(--button-font-family);
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  padding: 18px 30px;
+  border-radius: 50px;
+  width: 200px;
 }
