@@ -44,12 +44,16 @@ p {
   color: var(--primary-color);
   font-size: 18px;
   font-weight: normal;
+  line-height: 30px;
+}
+h2 {
+  font-size: 20px;
+  color: #f65282;
 }
 .hero {
   background-image: url("../Images/pain.jpg");
   background-size: cover;
   text-align: center;
-
   padding: 160px 20px;
 }
 
@@ -75,4 +79,57 @@ p {
   padding: 18px 30px;
   border-radius: 50px;
   width: 200px;
+}
+.btn-branding-outline {
+  background-color: var(--primary-color);
+  color: #272142;
+  font-family: var(--button-font-family);
+  border-radius: 50px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 18px 30px;
+  text-align: center;
+  width: 175px;
+  margin: 0 auto;
+  display: block;
+}
+.project-description {
+  padding: 120px 60px 60px;
+}
+.project-description h2 {
+  font-family: (var(--heading-font-family));
+  font-size: 31px;
+  font-weight: bold;
+  text-align: center;
+}
+.project-description p {
+  text-align: justify;
+}
+
+.image-description {
+  margin-top: 120px;
+}
+.image-three {
+  margin-top: 80px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 61px;
+    margin: 30px 0;
+  }
+  p {
+    font-size: 15px;
+  }
+  .project-description {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .project-description h2 {
+    font-family: (var(--heading-font-family));
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .project-description p {
+    text-align: center;
+  }
 }
