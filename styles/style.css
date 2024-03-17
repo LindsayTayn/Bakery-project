@@ -152,6 +152,22 @@ h2 {
 .contact-me {
   text-align: center;
 }
+.products-title {
+  font-size: 72px;
+  margin-top: 150px;
+  text-align: center;
+}
+.products-paragraphs {
+  text-align: center;
+}
+.size-products-image img {
+  width: 360px;
+  height: 350px;
+  border-radius: 12px;
+}
+.products-logo {
+  margin-bottom: 150px;
+}
 
 @media (max-width: 960px) {
   h1 {
@@ -188,5 +204,23 @@ h2 {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+  .size-products-image img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 175px;
+  }
+  .products-title {
+    font-size: 50px;
+    margin: 30px 0;
+  }
+  .products-paragraphs {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .products-logo {
+    margin-bottom: 30px;
   }
 }
