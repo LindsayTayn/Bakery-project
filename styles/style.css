@@ -55,6 +55,7 @@ h2 {
 footer {
   background-color: #f8f9fa;
   opacity: 1;
+  width: 100%;
 }
 footer p {
   color: black;
@@ -86,6 +87,7 @@ footer p {
   font-weight: bold;
   line-height: 75px;
   width: 553px;
+  margin-top: 50px;
 }
 .about-section h2 {
   font-size: 18px;
@@ -97,9 +99,8 @@ footer p {
   font-size: 17px;
   line-height: 30px;
   font-weight: 400px;
-  width: 590px;
+  width: 580px;
   text-align: justify;
-  padding-right: 50px;
 }
 .insta-logo {
   font-size: 53px;
@@ -214,9 +215,9 @@ footer p {
   }
   .image-profil {
     margin: 0 auto;
-    margin-bottom: 40px;
     display: block;
-    width: 400px;
+    margin-bottom: 40px;
+    width: 300px;
   }
   .image-projet {
     padding: 0;
@@ -227,6 +228,26 @@ footer p {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+  .about-section h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .about-section h2 {
+    text-align: center;
+  }
+  .about-section p {
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .contact-me {
+    margin-top: 30px;
   }
   .size-products-image img {
     display: block;
@@ -245,5 +266,9 @@ footer p {
   }
   .products-logo {
     margin-bottom: 30px;
+  }
+  .nav-item {
+    margin-right: 15px;
+    width: 100%;
   }
 }
