@@ -52,6 +52,13 @@ h2 {
   font-size: 20px;
   color: #f65282;
 }
+footer {
+  background-color: #f8f9fa;
+  opacity: 1;
+}
+footer p {
+  color: black;
+}
 .hero {
   background-image: url("../Images/pain.jpg");
   background-size: cover;
@@ -72,7 +79,7 @@ h2 {
   padding-right: 60px;
 }
 .about-section {
-  padding: 160px 20px 50px 20px;
+  padding: 90px 20px 50px 20px;
 }
 .about-section h1 {
   font-size: 60px;
@@ -101,11 +108,11 @@ h2 {
   justify-content: center;
 }
 .home-container {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 .image-profil {
   margin-bottom: 50px;
-  width: 500px;
+  width: 463px;
 }
 .btn-light {
   background-color: var(--primary-color);
@@ -156,7 +163,7 @@ h2 {
 }
 .contact-me {
   text-align: center;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 .contact-me h5 {
   color: #ffffff;
@@ -167,7 +174,7 @@ h2 {
 }
 .products-title {
   font-size: 72px;
-  margin-top: 150px;
+  margin-top: 90px;
   text-align: center;
 }
 .products-paragraphs {
@@ -179,7 +186,7 @@ h2 {
   border-radius: 12px;
 }
 .products-logo {
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 .nav-item {
   padding: 0 15px;
