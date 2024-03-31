@@ -184,6 +184,9 @@ footer p {
 .products-paragraphs {
   text-align: center;
 }
+.products-section a {
+  text-decoration: none;
+}
 .size-products-image img {
   width: 360px;
   height: 350px;
