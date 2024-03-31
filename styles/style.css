@@ -56,7 +56,7 @@ h2 {
   background-image: url("../Images/pain.jpg");
   background-size: cover;
   text-align: center;
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .hero h2 {
@@ -100,6 +100,9 @@ h2 {
   display: flex;
   justify-content: center;
 }
+.home-container {
+  margin-bottom: 120px;
+}
 .image-profil {
   margin-bottom: 50px;
   width: 500px;
@@ -131,9 +134,10 @@ h2 {
 
 .project-description h2 {
   font-family: (var(--heading-font-family));
-  font-size: 31px;
+  font-size: 27px;
   font-weight: bold;
   text-align: center;
+  padding-top: 110px;
 }
 .project-description p {
   text-align: justify;
@@ -176,6 +180,9 @@ h2 {
 }
 .products-logo {
   margin-bottom: 150px;
+}
+.nav-item {
+  padding: 0 15px;
 }
 
 @media (max-width: 960px) {
