@@ -80,7 +80,7 @@ footer p {
   padding-right: 60px;
 }
 .about-section {
-  padding: 90px 20px 50px 20px;
+  padding: 90px 40px 50px 40px;
 }
 .about-section h1 {
   font-size: 60px;
@@ -101,6 +101,9 @@ footer p {
   font-weight: 400px;
   width: 580px;
   text-align: justify;
+}
+.about-section a {
+  text-decoration: none;
 }
 .insta-logo {
   font-size: 53px;
