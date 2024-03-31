@@ -23,6 +23,7 @@ roboto-bold
   --secondary-color: #f65282;
   --heading-font-family: "Roboto", sans-serif;
   --button-font-family: "Montserrat", sans-serif;
+  --link-color: #0d6efd;
 }
 body {
   background-color: black;
@@ -71,7 +72,7 @@ h2 {
   padding-right: 60px;
 }
 .about-section {
-  padding: 160px 20px;
+  padding: 160px 20px 50px 20px;
 }
 .about-section h1 {
   font-size: 60px;
@@ -151,6 +152,14 @@ h2 {
 }
 .contact-me {
   text-align: center;
+  margin-bottom: 120px;
+}
+.contact-me h5 {
+  color: #ffffff;
+}
+.contact-me p {
+  color: var(--link-color);
+  text-decoration: underline;
 }
 .products-title {
   font-size: 72px;
